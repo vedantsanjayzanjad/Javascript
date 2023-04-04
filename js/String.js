@@ -3,7 +3,7 @@
 let name = "harry"
 console.log(name)
 //printing the lem=ngth of the string
-let length = name.length;
+let length = name.length;//stored the length in anither variable
 console.log(length);
 
 let str1 = "Cricket"
