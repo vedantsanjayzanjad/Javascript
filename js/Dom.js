@@ -19,7 +19,7 @@
 
 
 //Accessing the child element
-// direct or deeplu=y nested element of an element is called as children element
+// direct or deeply nested element of an element is called as children element
 
 //child node - direct child of an element
 //for rg head and body are child node of the html tag
@@ -29,3 +29,7 @@
 //console.log(document.body.firstchild)//body.lastchild//body.childnodes(numbers and name)
 
 //followings are always true
+// 1) element.childNode[0] = elemFirstChild
+// 2) element.childNodes[element.childNodes.length-1]===element.lastChild
+//there is also a method element.hasChild() to check whethere the element having is child of any
+//child looks like an arraybbut it is not an array its a collection and we can convert it into an array by array.form()
