@@ -33,3 +33,21 @@
 // 2) element.childNodes[element.childNodes.length-1]===element.lastChild
 //there is also a method element.hasChild() to check whethere the element having is child of any
 //child looks like an arraybbut it is not an array its a collection and we can convert it into an array by array.form()
+
+
+//parents and sibling of an element 
+//Notes:: on dom collection
+//a)they are read only
+//b)they are iterable using for of loop 
+//c)if childnodes of elemnt is changed it will automatically update
+
+//d) In brpswer console if u select $0 it will give the link and by $1 it will gave the the last sleect link
+
+//<head></head> and <body></body> are siblings where body said to be the left or previous siblings
+//{$0.nextsibling}
+//parent node ->Document will return
+//parent element - if it is return it will return otherwise it will return null
+
+
+//if you want siblings or node then you have to remove the space and make it in one line
+//<body><div class="first">first</div></body>

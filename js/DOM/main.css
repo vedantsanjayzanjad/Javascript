@@ -1,0 +1,19 @@
+/* head,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+ul
+{
+    display: flex;
+    color: black;
+}
+
+ul,li
+{
+    margin: 0 23px;
+    padding: 5px ;
+    list-style: none;
+} */
