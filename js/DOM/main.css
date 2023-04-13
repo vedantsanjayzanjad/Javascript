@@ -2,18 +2,33 @@
 {
     width: 100%;
     height: 100%;
-    margin: 0;
 }
 
-ul
+nav
 {
     display: flex;
     color: black;
 }
 
-ul,li
+/* ul,li
 {
     margin: 0 23px;
     padding: 5px ;
     list-style: none;
 } */
+
+/* nav li
+{
+    list-style: none;
+    padding: 0 23px;
+}  */
+
+.red
+{
+    background-color: red;
+}
+
+.yellow
+{
+background-color: yellow;
+}
